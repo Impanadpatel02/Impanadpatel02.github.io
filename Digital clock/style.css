@@ -1,0 +1,21 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(214, 91, 132);
+}
+#clock
+ {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 175px;
+   text-align: center;
+   border: 20px solid rgb(248, 244, 244);
+   border-radius: 20px;
+   background-color:rgb(6, 6, 6);
+   color: rgb(244, 246, 248);
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    box-shadow: 0 0 5px cyon, 0 0 25x rgb(25, 163, 163);
+}
