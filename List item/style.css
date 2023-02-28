@@ -12,13 +12,13 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3498db;
+    background-color: #3097ba;
 }
 
 .box {
     width: 700px;
     min-height: 500px;
-    background-color: white;
+    background-color: rgb(163, 209, 236);
     border-radius: 5px;
     padding: 15px;
 }
@@ -31,7 +31,7 @@ main {
     outline: 0;
     display: block;
     font-weight: bold;
-    box-shadow: 0px 0px 2px grey;
+    box-shadow: 0px 0px 2px rgb(72, 34, 241);
 }
 
 #to-do-box {
@@ -41,14 +41,16 @@ main {
 
 #to-do-box li {
     position: relative;
-    background-color: #2c3e50;
-    color: white;
+    background-color: #29789d;
+    color: rgb(2, 2, 2);
     padding: 10px;
     border-radius: 2px;
     padding-right: 30px;
     text-align: justify;
     margin-top: 10px;
     user-select: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #to-do-box li i {

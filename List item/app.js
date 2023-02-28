@@ -15,7 +15,7 @@ const addToDo = (item) => {
     const listItem = document.createElement("li");
     listItem.innerHTML = `
          ${item}
-        <i class="fas fa-times"></i>
+        <i i class="fa fa-times"></i>
     `;
 
     listItem.addEventListener(
@@ -32,3 +32,5 @@ const addToDo = (item) => {
     )
     toDoBox.appendChild(listItem)
 }
+
+
